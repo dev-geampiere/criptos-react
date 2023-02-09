@@ -53,14 +53,13 @@ const Formulario = ({setMonedas}) => {
     const handleSubmit = e => {
         e.preventDefault()
 
-        if ( [moneda, criptomoneda].includes('') ){
+        if ( [monedas, criptomoneda].includes('') ){
             setError(true)
             return
         }
         setError(false)
         setMonedas({
-            moneda,
-            criptomoneda
+            moneda,criptomoneda
         })
     }
 
