@@ -11,7 +11,7 @@ const InputSubmit = styled.input`
     padding:10px;
     color: #fff;
     font-weight:700;    
-    font-size: 'latto', sans-serif;
+    font-size: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size:20px;
     border-radius:5px;
